@@ -42,6 +42,7 @@ template drawline(m, n) {
     signal input transcript[3]; // [x, y, length]
 
     // no output
+    
 
     // build transcript image
 
