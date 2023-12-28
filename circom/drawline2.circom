@@ -2,6 +2,7 @@ pragma circom 2.1.6;
 
 include "node_modules/circomlib/circuits/comparators.circom";
 
+// check each pixel
 // build image from transcript and give constraints
 template build_image(m, n) {
     signal input transcript[3]; // [x, y, length]
@@ -42,7 +43,7 @@ template drawline(m, n) {
     signal input transcript[3]; // [x, y, length]
 
     // no output
-    
+
 
     // build transcript image
 
